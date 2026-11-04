@@ -57,7 +57,7 @@ export default function App() {
 
   function edit(post) {
     setEditingId(post._id); setTitle(post.title || ''); setContent(post.content || '');
-    setAuthor(post.author || 'Niranjan Kumar'); setImage(null); setError(''); setNotice('');
+    setAuthor(post.author || 'Krishna Kunal'); setImage(null); setError(''); setNotice('');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
